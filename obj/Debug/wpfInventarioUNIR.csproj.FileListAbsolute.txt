@@ -1,0 +1,14 @@
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\bin\Debug\wpfInventarioUNIR.exe.config
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\bin\Debug\wpfInventarioUNIR.exe
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\bin\Debug\wpfInventarioUNIR.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.csprojResolveAssemblyReference.cache
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\MainWindow.g.cs
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\App.g.cs
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR_MarkupCompile.cache
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR_MarkupCompile.lref
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\MainWindow.baml
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.g.resources
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.Properties.Resources.resources
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.csproj.GenerateResource.Cache
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.exe
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.pdb

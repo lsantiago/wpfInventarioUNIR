@@ -1,0 +1,24 @@
+﻿<Window x:Class="wpfInventarioUNIR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfInventarioUNIR"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="556.486" Width="601.151">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="Datos del medicamento" HorizontalAlignment="Left" Height="129" Margin="34,27,0,0" VerticalAlignment="Top" Width="518">
+
+            <Grid HorizontalAlignment="Left" Height="101" VerticalAlignment="Top" Width="499">
+                <Label x:Name="lblNombreMedicamento" Content="Nombre" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="tbNombreMedicamento" HorizontalAlignment="Left" Height="23" Margin="88,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1" Header="Distribuido Farmacéutico" HorizontalAlignment="Left" Height="112" Margin="37,177,0,0" VerticalAlignment="Top" Width="515"/>
+        <GroupBox x:Name="groupBox2" Header="Recibir en" HorizontalAlignment="Left" Height="123" Margin="36,317,0,0" VerticalAlignment="Top" Width="516"/>
+
+        <Button x:Name="Enviar" Content="Enviar" HorizontalAlignment="Left" Height="38" Margin="460,459,0,0" VerticalAlignment="Top" Width="92" Click="Enviar_Click"/>
+
+    </Grid>
+</Window>
