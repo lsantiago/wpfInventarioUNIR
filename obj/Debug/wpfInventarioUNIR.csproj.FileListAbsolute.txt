@@ -12,3 +12,5 @@ c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\o
 c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.csproj.GenerateResource.Cache
 c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.exe
 c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.pdb
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\Resumen.g.cs
+c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\Resumen.baml
