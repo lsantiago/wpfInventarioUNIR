@@ -33,9 +33,9 @@
                     <ColumnDefinition Width="280*"/>
                     <ColumnDefinition Width="13*"/>
                 </Grid.ColumnDefinitions>
-                <RadioButton x:Name="rbCofama" Content="Cofama" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
-                <RadioButton x:Name="rbEmpsephar" Content="Empsephar" HorizontalAlignment="Left" Margin="106,20,0,0" VerticalAlignment="Top"/>
-                <RadioButton x:Name="rbCemefar" Content="Cemefar" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top"/>
+                <RadioButton x:Name="rbCofama" Content="Cofama" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top" GroupName="grupoDistribuidor"/>
+                <RadioButton x:Name="rbEmpsephar" Content="Empsephar" HorizontalAlignment="Left" Margin="106,20,0,0" VerticalAlignment="Top" GroupName="grupoDistribuidor"/>
+                <RadioButton x:Name="rbCemefar" Content="Cemefar" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" GroupName="grupoDistribuidor"/>
             </Grid>
         </GroupBox>
         <GroupBox x:Name="groupBox2" Header="Recibir en" HorizontalAlignment="Left" Height="114" Margin="37,285,0,0" VerticalAlignment="Top" Width="333">
@@ -46,7 +46,7 @@
         </GroupBox>
 
         <Button x:Name="Enviar" Content="Enviar" HorizontalAlignment="Left" Height="38" Margin="278,427,0,0" VerticalAlignment="Top" Width="92" Click="Enviar_Click"/>
-        <Button x:Name="btnBorrar" Content="Borrar" HorizontalAlignment="Left" Height="38" Margin="178,427,0,0" VerticalAlignment="Top" Width="82"/>
+        <Button x:Name="btnBorrar" Content="Borrar" HorizontalAlignment="Left" Height="38" Margin="178,427,0,0" VerticalAlignment="Top" Width="82" Click="btnBorrar_Click"/>
 
     </Grid>
 </Window>

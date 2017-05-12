@@ -19,9 +19,14 @@ namespace wpfInventarioUNIR
     /// </summary>
     public partial class Resumen : Window
     {
-        public Resumen()
+        public Resumen(String nombreMedic,
+            String tipoMedic,
+            int cantidadMedic,
+            String nombreDist)
         {
             InitializeComponent();
+
+            this.Content = nombreMedic;
         }
     }
 }

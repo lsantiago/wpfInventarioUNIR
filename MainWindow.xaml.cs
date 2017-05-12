@@ -15,20 +15,39 @@ using System.Windows.Shapes;
 
 namespace wpfInventarioUNIR
 {
-    /// <summary>
-    /// Constantes
-    /// </summary>
-    //private const String DIRECCION_SUC_PRINC = "Calle de la Rosa n. 28";
-    //private const String DIRECCION_SUC_SEC = "Calle Alcazabilla n. 3";
+    
+
+    
+
 
     /// <summary>
     /// Lógica de interacción para MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        /// <summary>
+        /// Constantes
+        /// </summary>
+        private const String DIRECCION_SUC_PRINC = "Calle de la Rosa n. 28";
+        private const String DIRECCION_SUC_SEC = "Calle Alcazabilla n. 3";
+
+
+        List<RadioButton> listaNombreDistribuidor = new List<RadioButton>();
+
+
         public MainWindow()
         {
             InitializeComponent();
+
+
+
+        }
+
+        private void llenarControles()
+        {
+            listaNombreDistribuidor.Add(rbCemefar);
+            listaNombreDistribuidor.Add(rbCofama);
+            listaNombreDistribuidor.Add(rbEmpsephar);
         }
 
         /// <summary>
@@ -38,31 +57,23 @@ namespace wpfInventarioUNIR
         /// <param name="e"></param>
         private void Enviar_Click(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine(tbNombreMedicamento.Text);
+            /*Console.WriteLine(tbNombreMedicamento.Text);*/
 
             try
             {
-                /*
+                
                 String strNombreMedicamento = tbNombreMedicamento.Text;
-                String strTipoMedicamento = cbTipoMedicamento.SelectedValue.ToString;
+                String strTipoMedicamento = cbTipoMedicamento.SelectedValue.ToString();
                 String strCantidadMedicamento = tbCantidadMedicamento.Text;
 
                 int cantidadMedicamento = Int32.Parse(strCantidadMedicamento);
 
-                // obtiene el nombre del distribuidor
-                var rbSelecDist = gbDistribuidor.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
-                String strDistribuido = rbSelecDist.Text;
+                String strDistribuido = getNombreDistribuidor();
 
+                
+                Resumen windowResumen = new Resumen(strNombreMedicamento, strTipoMedicamento, cantidadMedicamento, "Principal");
+                windowResumen.Show();
 
-                // obtiene el nombre donde se va a recibir el medicamento
-                //List<CheckBox> listDestinos = gbDestinos.Controls.OfType<CheckBox>().All(r => r.Checked);
-
-
-                //Console.WriteLine(strDistribuido);
-
-                FormResumen frmResumen = new FormResumen(strNombreMedicamento, strTipoMedicamento, cantidadMedicamento, "Principal");
-                frmResumen.ShowDialog();
-                */
             }
             catch (System.NullReferenceException)
             {
@@ -73,6 +84,29 @@ namespace wpfInventarioUNIR
                 Console.WriteLine("Escriba un valor númerico en la cantidad de medicamentos!");
             }
 
+            
+
+            
+
         }
+
+        private String getNombreDistribuidor()
+        {
+            foreach (RadioButton rb in listaNombreDistribuidor)
+            {
+                if (rb.IsChecked == true)
+                    return rb.Content.ToString();
+            }
+
+            return "";
+        }
+
+        private void btnBorrar_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+
+        
     }
 }
