@@ -22,11 +22,25 @@ namespace wpfInventarioUNIR
         public Resumen(String nombreMedic,
             String tipoMedic,
             int cantidadMedic,
-            String nombreDist)
+            String nombreDist, List<String> direcciones)
         {
+
             InitializeComponent();
 
-            this.Content = nombreMedic;
+            // define el título de la ventana
+            this.Title = nombreDist;
+
+            // detalle del medicamento
+            lblMedicamento.Content = String.Format("{0} unidades del {1} {2}", cantidadMedic, tipoMedic, nombreMedic);
+
+
+            lblDirecciones.Content = "";
+            // detalle de las direcciones
+            foreach(String direccion in direcciones)
+            {
+                lblDirecciones.Content += lblDirecciones.Content + ".: Para la farmacia situda en " + direccion;
+            }
+
         }
     }
 }

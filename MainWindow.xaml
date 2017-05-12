@@ -40,8 +40,8 @@
         </GroupBox>
         <GroupBox x:Name="groupBox2" Header="Recibir en" HorizontalAlignment="Left" Height="114" Margin="37,285,0,0" VerticalAlignment="Top" Width="333">
             <Grid HorizontalAlignment="Left" Height="66" Margin="10,10,-2,0" VerticalAlignment="Top" Width="313">
-                <CheckBox x:Name="cbSucursalPrincipal" Content="Sucursal Principal" HorizontalAlignment="Left" Margin="17,10,0,0" VerticalAlignment="Top"/>
-                <CheckBox x:Name="cbSucursalSecundaria" Content="Sucursal Secundaria" HorizontalAlignment="Left" Margin="17,39,0,0" VerticalAlignment="Top"/>
+                <CheckBox x:Name="cbSucursalPrincipal" Content="Sucursal Principal" HorizontalAlignment="Left" Margin="17,10,0,0" VerticalAlignment="Top" ToolTip="Calle de la Rosa n. 28"/>
+                <CheckBox x:Name="cbSucursalSecundaria" Content="Sucursal Secundaria" HorizontalAlignment="Left" Margin="17,39,0,0" VerticalAlignment="Top" ToolTip="Calle Alcazabilla n. 3"/>
             </Grid>
         </GroupBox>
 

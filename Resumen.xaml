@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="Resumen" Height="315.217" Width="333.696">
     <Grid>
+        <Label x:Name="lblMedicamento" Content="lblMedicamento" HorizontalAlignment="Left" Margin="33,64,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblDirecciones" Content="lblDirecciones" HorizontalAlignment="Left" Margin="33,109,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
