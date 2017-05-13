@@ -137,7 +137,16 @@ namespace wpfInventarioUNIR
 
         private void btnBorrar_Click(object sender, RoutedEventArgs e)
         {
-            
+            tbNombreMedicamento.Clear();
+            cbTipoMedicamento.Items.Clear();
+            tbCantidadMedicamento.Clear();
+            rbCemefar.IsChecked = false;
+            rbCofama.IsChecked = false;
+            rbEmpsephar.IsChecked = false;
+            cbSucursalPrincipal.IsChecked = false;
+            cbSucursalSecundaria.IsChecked = false;
+
+
         }
 
 

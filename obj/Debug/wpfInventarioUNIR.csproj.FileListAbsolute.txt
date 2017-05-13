@@ -14,3 +14,19 @@ c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\o
 c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.pdb
 c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\Resumen.g.cs
 c:\users\administrador\documents\visual studio 2015\Projects\wpfInventarioUNIR\obj\Debug\Resumen.baml
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\bin\Debug\wpfInventarioUNIR.exe.config
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\bin\Debug\wpfInventarioUNIR.exe
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\bin\Debug\wpfInventarioUNIR.pdb
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.csprojResolveAssemblyReference.cache
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\MainWindow.g.cs
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\Resumen.g.cs
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\App.g.cs
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR_MarkupCompile.cache
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR_MarkupCompile.lref
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\MainWindow.baml
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\Resumen.baml
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.g.resources
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.Properties.Resources.resources
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.csproj.GenerateResource.Cache
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.exe
+C:\Users\krromero\Documents\GitHub\wpfInventarioUNIR\obj\Debug\wpfInventarioUNIR.pdb
