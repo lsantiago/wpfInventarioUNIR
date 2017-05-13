@@ -34,12 +34,14 @@ namespace wpfInventarioUNIR
             lblMedicamento.Content = String.Format("{0} unidades del {1} {2}", cantidadMedic, tipoMedic, nombreMedic);
 
 
-            lblDirecciones.Content = "";
+            tbDirecciones.Text = "<html>Para la farmacia situada en:";
             // detalle de las direcciones
             foreach(String direccion in direcciones)
             {
-                lblDirecciones.Content += lblDirecciones.Content + ".: Para la farmacia situda en " + direccion;
+                tbDirecciones.Text += tbDirecciones.Text + " <br> .: " + direccion;
             }
+
+            tbDirecciones.Text += "</html>";
 
         }
 
