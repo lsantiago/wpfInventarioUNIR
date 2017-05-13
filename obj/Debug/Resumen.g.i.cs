@@ -56,6 +56,22 @@ namespace wpfInventarioUNIR {
         #line default
         #line hidden
         
+        
+        #line 12 "..\..\Resumen.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnCancelar;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 13 "..\..\Resumen.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button btnEnviar;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -91,6 +107,24 @@ namespace wpfInventarioUNIR {
             return;
             case 2:
             this.lblDirecciones = ((System.Windows.Controls.Label)(target));
+            return;
+            case 3:
+            this.btnCancelar = ((System.Windows.Controls.Button)(target));
+            
+            #line 12 "..\..\Resumen.xaml"
+            this.btnCancelar.Click += new System.Windows.RoutedEventHandler(this.btnCancelar_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 4:
+            this.btnEnviar = ((System.Windows.Controls.Button)(target));
+            
+            #line 13 "..\..\Resumen.xaml"
+            this.btnEnviar.Click += new System.Windows.RoutedEventHandler(this.btnEnviar_Click);
+            
+            #line default
+            #line hidden
             return;
             }
             this._contentLoaded = true;

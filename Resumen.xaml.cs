@@ -42,5 +42,16 @@ namespace wpfInventarioUNIR
             }
 
         }
+
+        private void btnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnEnviar_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Pedido enviado correctamente");
+            this.Hide();
+        }
     }
 }

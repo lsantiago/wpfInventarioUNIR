@@ -20,6 +20,7 @@ namespace wpfInventarioUNIR
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Listas para controles 
         List<RadioButton> listaNombreDistribuidor = new List<RadioButton>();
         List<CheckBox> listaSucursal = new List<CheckBox>();
 
@@ -67,6 +68,7 @@ namespace wpfInventarioUNIR
                 String strDistribuidor = getNombreDistribuidor();
 
                 
+                // activa la ventana del resumen
                 Resumen windowResumen = new Resumen(strNombreMedicamento, 
                     strTipoMedicamento, 
                     cantidadMedicamento, 
@@ -79,11 +81,11 @@ namespace wpfInventarioUNIR
             }
             catch (System.NullReferenceException)
             {
-                Console.WriteLine("Seleccione el nombre del distribuidor!");
+                MessageBox.Show("Seleccione el nombre del distribuidor!");
             }
             catch (System.FormatException)
             {
-                Console.WriteLine("Escriba un valor númerico en la cantidad de medicamentos!");
+                MessageBox.Show("Escriba un valor númerico en la cantidad de medicamentos!");
             }
 
         }
@@ -112,12 +114,15 @@ namespace wpfInventarioUNIR
         /// <summary>
         /// Obtiene la lista de direcciones de las sucursales
         /// </summary>
-        /// <returns></returns>
+        /// <returns>
+        /// Lista de direcciones
+        /// </returns>
         private List<String> getListaDireccionesSucursales()
         {
             List<String> direcciones = new List<String>();
 
-            foreach(CheckBox cb in listaSucursal)
+            // agrega todo los checbox que sean seleccionadas
+            foreach (CheckBox cb in listaSucursal)
             {
                 if (cb.IsChecked == true)
                 {
