@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Resumen" Height="315.217" Width="333.696">
     <Grid>
-        <Label x:Name="lblMedicamento" Content="lblMedicamento" HorizontalAlignment="Left" Margin="33,64,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblDirecciones" Content="lblDirecciones" HorizontalAlignment="Left" Margin="33,109,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMedicamento" Content="lblMedicamento" HorizontalAlignment="Left" Margin="33,62,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="138,253,0,0" VerticalAlignment="Top" Width="75" Click="btnCancelar_Click"/>
         <Button x:Name="btnEnviar" Content="Enviar" HorizontalAlignment="Left" Margin="241,253,0,0" VerticalAlignment="Top" Width="75" Click="btnEnviar_Click"/>
+        <TextBlock x:Name="tbDirecciones" HorizontalAlignment="Left" Margin="33,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="tbDirecciones"/>
 
     </Grid>
 </Window>
